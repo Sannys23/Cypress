@@ -46,7 +46,9 @@ pipeline {
     //failed =>
     //success =>
     post{
-        echo "Ini adalah post"
+        always{
+            echo "Ini adalah post()"
+        }
     }
 
 }
